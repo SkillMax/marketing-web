@@ -13,19 +13,22 @@
   --popover-foreground: oklch(0.145 0 0);
   --primary: oklch(0.35 0.15 264); /* Skillmax purple #5022c3 */
   --primary-foreground: oklch(1 0 0);
-  --secondary: oklch(0.8 0.12 85); /* Yellow accent #facc15 */
-  --secondary-foreground: oklch(0.145 0 0);
+  /* Replace yellow secondary with purple primary color */
+  --secondary: oklch(0.35 0.15 264); /* Purple primary #5022c3 */
+  --secondary-foreground: oklch(1 0 0);
   --muted: oklch(0.97 0.01 264);
   --muted-foreground: oklch(0.45 0 0);
-  --accent: oklch(0.8 0.12 85); /* Yellow accent */
-  --accent-foreground: oklch(0.145 0 0);
+  /* Replace yellow accent with purple primary color */
+  --accent: oklch(0.35 0.15 264); /* Purple primary */
+  --accent-foreground: oklch(1 0 0);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(1 0 0);
   --border: oklch(0.9 0 0);
   --input: oklch(0.97 0.01 264);
   --ring: oklch(0.35 0.15 264 / 0.5);
+  /* Replace yellow chart color with purple */
   --chart-1: oklch(0.35 0.15 264);
-  --chart-2: oklch(0.8 0.12 85);
+  --chart-2: oklch(0.35 0.15 264);
   --chart-3: oklch(0.6 0.15 150);
   --chart-4: oklch(0.6 0.15 220);
   --chart-5: oklch(0.6 0.15 15);
@@ -34,8 +37,9 @@
   --sidebar-foreground: oklch(0.145 0 0);
   --sidebar-primary: oklch(0.35 0.15 264);
   --sidebar-primary-foreground: oklch(1 0 0);
-  --sidebar-accent: oklch(0.8 0.12 85);
-  --sidebar-accent-foreground: oklch(0.145 0 0);
+  /* Replace yellow sidebar accent with purple */
+  --sidebar-accent: oklch(0.35 0.15 264);
+  --sidebar-accent-foreground: oklch(1 0 0);
   --sidebar-border: oklch(0.9 0 0);
   --sidebar-ring: oklch(0.35 0.15 264 / 0.5);
 }
@@ -49,19 +53,22 @@
   --popover-foreground: oklch(0.985 0 0);
   --primary: oklch(0.45 0.15 264); /* Lighter purple for dark mode */
   --primary-foreground: oklch(1 0 0);
-  --secondary: oklch(0.8 0.12 85); /* Keep yellow accent */
-  --secondary-foreground: oklch(0.145 0 0);
+  /* Replace yellow secondary with lighter purple for dark mode */
+  --secondary: oklch(0.45 0.15 264); /* Lighter purple for dark mode */
+  --secondary-foreground: oklch(1 0 0);
   --muted: oklch(0.2 0 0);
   --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.8 0.12 85);
-  --accent-foreground: oklch(0.145 0 0);
+  /* Replace yellow accent with lighter purple for dark mode */
+  --accent: oklch(0.45 0.15 264);
+  --accent-foreground: oklch(1 0 0);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(1 0 0);
   --border: oklch(0.2 0 0);
   --input: oklch(0.2 0 0);
   --ring: oklch(0.45 0.15 264 / 0.5);
+  /* Replace yellow chart color with lighter purple for dark mode */
   --chart-1: oklch(0.45 0.15 264);
-  --chart-2: oklch(0.8 0.12 85);
+  --chart-2: oklch(0.45 0.15 264);
   --chart-3: oklch(0.6 0.15 150);
   --chart-4: oklch(0.6 0.15 220);
   --chart-5: oklch(0.6 0.15 15);
@@ -69,8 +76,9 @@
   --sidebar-foreground: oklch(0.985 0 0);
   --sidebar-primary: oklch(0.45 0.15 264);
   --sidebar-primary-foreground: oklch(1 0 0);
-  --sidebar-accent: oklch(0.8 0.12 85);
-  --sidebar-accent-foreground: oklch(0.145 0 0);
+  /* Replace yellow sidebar accent with lighter purple for dark mode */
+  --sidebar-accent: oklch(0.45 0.15 264);
+  --sidebar-accent-foreground: oklch(1 0 0);
   --sidebar-border: oklch(0.2 0 0);
   --sidebar-ring: oklch(0.45 0.15 264 / 0.5);
 }

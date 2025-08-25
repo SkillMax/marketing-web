@@ -78,7 +78,7 @@ export function Header() {
             <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground h-4 w-4" />
             <Input
               placeholder="Search courses..."
-              className="pl-10 bg-muted border-0 focus-visible:ring-1 focus-visible:ring-primary"
+              className="pl-10 bg-muted border-0 focus-visible:ring-1 focus-visible:ring-primary rounded-full"
             />
           </div>
         </div>
@@ -88,12 +88,12 @@ export function Header() {
           <Button variant="ghost" size="icon" className="hidden md:flex">
             <ShoppingCart className="h-5 w-5" />
           </Button>
-          <Button variant="outline" size="sm" className="hidden md:flex font-serif bg-transparent">
+          <Button variant="outline" size="sm" className="hidden md:flex font-serif bg-transparent rounded-full">
             Login
           </Button>
           <Button
             size="sm"
-            className="hidden md:flex bg-secondary text-secondary-foreground hover:bg-secondary/90 font-serif"
+            className="hidden md:flex bg-primary text-primary-foreground hover:bg-primary/90 font-serif rounded-full"
           >
             Sign Up
           </Button>
